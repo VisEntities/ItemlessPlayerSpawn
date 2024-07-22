@@ -9,7 +9,7 @@ using System.Collections.Generic;
 namespace Oxide.Plugins
 {
     [Info("Itemless Player Spawn", "VisEntities", "1.0.0")]
-    [Description(" ")]
+    [Description("Ensures that players spawn without receiving the default starter items, such as a torch and rock.")]
     public class ItemlessPlayerSpawn : RustPlugin
     {
         #region Fields
